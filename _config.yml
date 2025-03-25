@@ -3,6 +3,7 @@ description: "A website about various chess openings"
 posts_dir: _posts
 
 baseurl: "/ip-chess-openings"
+url: ""
 
 collections:
   posts:
