@@ -1,0 +1,26 @@
+// Najwyraźniej niepotrzebne.
+// @import "../../node_modules/tailwindcss";
+// @import '../../node_modules/tailwindcss/base';
+// @import '../../node_modules/tailwindcss/components';
+// @import '../../node_modules/tailwindcss/utilities';
+
+// @tailwind base;
+// @tailwind components;
+// @tailwind utilities;
+
+
+a {
+    @apply text-blue-500 underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    @apply text-sky-500;
+}
+
+p {
+    @apply text-red-500;
+}
+
+.bg-my-green {
+    @apply bg-green-200;
+}
