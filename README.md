@@ -4,4 +4,4 @@
 - `assets/css/styles.scss`
 
 ### Link do strony:
-[strona](Ignatius997.github.io)
+[ignatius997.github.io](ignatius997.github.io)
