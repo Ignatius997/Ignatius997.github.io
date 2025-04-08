@@ -3,4 +3,4 @@
 - `_layouts/home.html`
 - `assets/css/styles.scss`
 
-### [Link do strony](https://ignatius997.github.io):
+### [Link do strony](https://ignatius997.github.io)
