@@ -14,9 +14,67 @@ layout: default
   <h1 class="font-bold">
     Tutaj napis w kolorze headerowym z scss.
   </h1>
+  <p class="text-black">Tutaj zwykły tekst w paragrafie w odpowiednim kolorze z tailwinda.</p>
+  <a href="#">To jest link w odpowiednim kolorze z scss.</a>
   <br>
 
-  <p>Tutaj zwykły tekst w paragrafie w odpowiednim kolorze z scss.</p>
-  <a href="#">To jest link w odpowiednim kolorze z scss.</a>
+  <p class="bg-my-green">Tekst na zielonym tle z scss.</p>
+  <p class="bg-black">Tekst na czarnym tle z tailwinda.</p>
+  <p class="bg-inherit">Dziedziczenie tła.</p>
+  <br>
+
+  <div class="shadow-md p-2 bg-lime-200">
+    <p class="text-sky-800">Cienie.</p>
+  </div>
+  <div class="shadow-xl p-3 rounded bg-stone-100">
+    <p class="text-sky-400">Cienie 2.</p>
+  </div>
+  <br>
+
+  <table class="table-auto">
+    <thead>
+      <tr>
+        <th>Kraj</th>
+        <th>Populacja</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Polska</td>
+        <td class="text-red-700">37 mln</td>
+      </tr>
+      <tr>
+        <td>Chiny</td>
+        <td class="text-green-500">1.4 mld</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table class="table-fixed">
+    <thead>
+      <tr>
+        <th>Kraj</th>
+        <th>Populacja</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Polska</td>
+        <td class="text-red-700">37 mln</td>
+      </tr>
+      <tr>
+        <td>Chiny</td>
+        <td class="text-green-500">1.4 mld</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="relative flex items-center justify-center h-32 w-32">
+    <div class="absolute inline-flex h-full w-full animate-ping bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 rounded-full opacity-75"></div>
+    <div class="relative inline-flex h-21 w-21 bg-blue-500 rounded-full"></div>
+    <p class="absolute text-white font-bold">Sieeemano</p>
+  </div>
+
+  
 </body>
 </html>

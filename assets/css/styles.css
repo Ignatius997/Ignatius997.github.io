@@ -761,4 +761,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   @apply text-red-500;
+}
+
+.bg-my-green {
+  @apply bg-green-200;
 }/*# sourceMappingURL=styles.css.map */
