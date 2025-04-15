@@ -12,4 +12,7 @@ plugins:
   - jekyll-feed
 
 sass:
-  sass_dir: assets/css
+  sass_dir: www4/assets/css
+
+exclude:
+  - www4/assets/css/styles.scss
