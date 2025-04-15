@@ -1,0 +1,18 @@
+title: Witam w labie 4!
+email: if.pernach@student.mimuw.edu.pl
+description: >-
+  Oto stronka na potrzeby czwartego laboratorium z www.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  Ignatius997
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+sass:
+  sass_dir: www4/assets/css
+
+exclude:
+  - www4/assets/css/styles.scss
